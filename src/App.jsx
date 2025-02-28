@@ -15,7 +15,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path="/proft/" element={<Home />} />
+          <Route path="/portf/" element={<Home />} />
           <Route path="/projects/:id" element={<Project />} />
           <Route path="/Project" element={<Projects />} />
           <Route path="/Contacts" element={<Contacts />} />
