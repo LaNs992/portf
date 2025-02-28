@@ -35,6 +35,10 @@ const Header = () => {
             Прохождение обучения по веб-разработке в Радар ММС
             <p className="date">2023.11.07-2024.05.20</p>
           </p>
+          <p className="double_text">
+            Школа Искусств Рапсодия, Киров, Россия. Художественная школа.
+            <p className="date">Сентябрь 2017 – Июнь 2020</p>
+          </p>
         </div>
         <a href={file} download className="btn">
           Скачать резюме

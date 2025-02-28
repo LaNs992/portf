@@ -24,3 +24,21 @@
   line-height: 1.3;
   color: var(--project-card-text);
 }
+@media (max-width: 800px) {
+  .project__title {
+    font-size: 18px;
+  }
+  .projects {
+    max-width: 400px;
+  }
+  .project {
+    width: 300px;
+  }
+  .title-1 {
+    max-width: 100%;
+    text-align: center;
+  }
+  .container {
+    padding: 0 30px;
+  }
+}

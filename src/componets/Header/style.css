@@ -58,3 +58,11 @@
 .double_text {
   height: 191px;
 }
+@media (max-width: 1200px) {
+  .header__text {
+    flex-direction: column;
+  }
+  .header__wrapper {
+    height: 1200px;
+  }
+}
