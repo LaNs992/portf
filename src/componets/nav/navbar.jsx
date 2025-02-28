@@ -1,9 +1,9 @@
-import { NavLink } from 'react-router-dom';
-import '../nav/style.css';
-import '../btnDarkMode/btnDarkMode';
+import { NavLink } from "react-router-dom";
+import "../nav/style.css";
+import "../btnDarkMode/btnDarkMode";
 
-const activlink = 'nav-list__link nav-list__link--active';
-const normalink = 'nav-list__link ';
+const activlink = "nav-list__link nav-list__link--active";
+const normalink = "nav-list__link ";
 const Navbar = () => {
   return (
     <nav className="nav">
@@ -16,7 +16,7 @@ const Navbar = () => {
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
-                to="/"
+                to="/proft"
                 className={(isActive) => {
                   return isActive ? activlink : normalink;
                 }}
